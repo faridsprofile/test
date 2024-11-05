@@ -1,0 +1,140 @@
+body{
+    font-family: "Open Sans", serif;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.top-menu{
+    display: flex;
+    padding: 15px 0;
+    background-color: #EFF5FF;
+    justify-content: space-between;
+}
+.top-menu .top-menu-left{
+    margin-left: 10%;
+    float: left;
+    display: flex;
+}
+.top-menu .top-menu-left .location{
+    
+}
+.top-menu .top-menu-left .location i{
+    color: #0463FA; 
+}
+.top-menu .top-menu-left .location p{
+    display: inline-block;
+}
+
+.top-menu .top-menu-left .time{
+    margin-left: 30px;
+}
+.top-menu .top-menu-left .time i{
+    color: #0463FA; 
+}
+.top-menu .top-menu-left .time p{
+    display: inline-block;
+}
+
+.top-menu .top-menu-right{
+    margin-right: 10%;
+    float: right;
+    display: flex;
+}
+.top-menu .top-menu-right .phone{
+    
+}
+.top-menu .top-menu-right .phone i{
+    color: #0463FA;    
+}
+
+.top-menu .top-menu-right .phone p{
+    display: inline-block;
+}
+
+.top-menu .top-menu-right .social-icon{
+    margin-left: 30px;
+}
+
+.top-menu .top-menu-right .social-icon ul{
+    list-style: none;
+}
+.top-menu .top-menu-right .social-icon ul li{
+    float: left;
+}
+.top-menu .top-menu-right .social-icon ul li a{
+    text-align:center;
+    vertical-align:middle;
+    display:inline-block;
+    background-color: #fff;
+    color: #0463FA;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.top-menu .top-menu-right .social-icon ul li a:hover{
+    color:#202b4f;
+}
+
+
+.nav-top-navmenu{
+}
+
+nav{
+    height: 100px;
+}
+
+nav img{
+    margin-left: 10%;
+    float: left;
+    padding: 30px 0;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+    margin-right: 10%;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 30px 20px;
+    text-align: center;
+    color: #1B2C51;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+av ul li:active{
+
+    color: #0463FA;
+
+}
+
+nav ul li a:hover{
+    color: #0463FA;
+}
+
+nav ul li:last-child a{
+    background-color:#0463FA;
+    color: #fff;
+    width: 200px;
+    padding: 30px;
+}
+nav ul li:last-child a:hover{
+    background-color: #1B2C51;
+}
+
+
